@@ -1,0 +1,13 @@
+{
+  "verified_at": "2026-10-06T14:55:18.594958",
+  "competition_url": "https://www.kaggle.com/competitions/shl-hiring-assessment-2026",
+  "official_test_rows": 216,
+  "submission_rows": 216,
+  "official_test_sha256": "9966878ebc5b15ad15b0f6b56a4cd03fe55d3a0268d94996cedfa69eef74ab24",
+  "official_test_byte_identical_to_local": true,
+  "submission_id_order_matches_official_test": true,
+  "kaggle_dialog_required_rows": 216,
+  "header_required": true,
+  "official_sample_submission_unique_ids": 204,
+  "submission_uploaded": false
+}

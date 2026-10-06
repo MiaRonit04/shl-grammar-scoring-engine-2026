@@ -1,0 +1,475 @@
+feature,importance,component
+avg_logprob,11.00736940520243,ASR metadata
+root_ttr,10.42806806277654,Linguistic
+no_speech_prob,8.586190927075519,ASR metadata
+mfcc_1_std,5.78754074778921,Acoustic
+unique_words,5.472656103296013,Linguistic
+centroid_0_mean,3.0159626515857365,Acoustic
+mfcc_10_std,1.8752623429799602,Acoustic
+bandwidth_0_mean,1.73353554177628,Acoustic
+zcr_0_mean,1.725285765094317,Acoustic
+rms_0_mean,1.7133542767495407,Acoustic
+mfcc_1_mean,1.6844131225271994,Acoustic
+mfcc_2_std,1.6318774078275664,Acoustic
+mfcc_11_std,1.566657530745796,Acoustic
+mfcc_6_std,1.4397824160114592,Acoustic
+mfcc_0_mean,1.251404687259495,Acoustic
+mfcc_7_std,1.2155353457662164,Acoustic
+silence_ratio,1.1646793782357623,Acoustic
+emb_323,1.14841800268153,Text embeddings
+mfcc_12_std,1.0859525264002499,Acoustic
+char_count,1.0300050214163414,Linguistic
+pause_count,0.9393529217160909,Acoustic
+mfcc_8_std,0.7429278457739231,Acoustic
+rolloff_0_mean,0.7067694604186995,Acoustic
+bandwidth_0_std,0.6979010611544135,Acoustic
+emb_174,0.697313570491706,Text embeddings
+mfcc_0_std,0.6879551244734321,Acoustic
+emb_301,0.6828686532609181,Text embeddings
+mfcc_4_std,0.6215075569518607,Acoustic
+pause_max,0.599667999225686,Acoustic
+emb_137,0.5928074356308196,Text embeddings
+mfcc_9_std,0.5916495635350492,Acoustic
+rolloff_0_std,0.5795621195837801,Acoustic
+mfcc_3_std,0.5490431394103684,Acoustic
+emb_353,0.5241800135496048,Text embeddings
+emb_168,0.5114043240236886,Text embeddings
+mfcc_8_mean,0.501541814049645,Acoustic
+pause_mean,0.4939963176651564,Acoustic
+centroid_0_std,0.4834237890481709,Acoustic
+emb_303,0.4460037834599207,Text embeddings
+emb_205,0.43722144589961626,Text embeddings
+emb_364,0.4274913112774416,Text embeddings
+emb_118,0.4097230759914762,Text embeddings
+mfcc_5_std,0.38652568925908304,Acoustic
+emb_70,0.37566965580474415,Text embeddings
+duration,0.36870565600901056,Acoustic
+emb_185,0.36172147628473905,Text embeddings
+emb_317,0.3454012082002158,Text embeddings
+emb_99,0.3399183224054434,Text embeddings
+emb_308,0.3390106555777139,Text embeddings
+emb_345,0.3300648381361417,Text embeddings
+emb_381,0.32743789282178454,Text embeddings
+emb_257,0.3263897786856254,Text embeddings
+emb_368,0.3255956742847287,Text embeddings
+emb_363,0.32536031902741364,Text embeddings
+emb_226,0.29996499352455064,Text embeddings
+emb_177,0.2878532064414295,Text embeddings
+emb_334,0.2870873199424802,Text embeddings
+emb_149,0.27803697502813957,Text embeddings
+rms_0_std,0.2740655884894156,Acoustic
+emb_214,0.2734523989402574,Text embeddings
+emb_330,0.248278658427378,Text embeddings
+emb_80,0.21907234681126403,Text embeddings
+emb_269,0.20909626473714132,Text embeddings
+emb_125,0.20906108181708682,Text embeddings
+emb_104,0.20108068873647109,Text embeddings
+words_per_active_second,0.19937900260643912,Acoustic
+emb_120,0.1965931684298738,Text embeddings
+emb_87,0.19144664018259988,Text embeddings
+emb_357,0.18869200357873603,Text embeddings
+emb_8,0.1882870482263494,Text embeddings
+emb_90,0.18696853922747744,Text embeddings
+emb_354,0.17719258366121973,Text embeddings
+emb_248,0.17714567047175409,Text embeddings
+emb_58,0.16946276451363423,Text embeddings
+mfcc_6_mean,0.16716938081476304,Acoustic
+emb_262,0.1640338333121874,Text embeddings
+emb_383,0.16006185807298443,Text embeddings
+emb_290,0.15498984221877068,Text embeddings
+emb_310,0.15338437456280032,Text embeddings
+emb_134,0.15331466473767083,Text embeddings
+mean_word_length,0.14795619714599562,Linguistic
+emb_95,0.141103464000184,Text embeddings
+emb_333,0.14106047783286563,Text embeddings
+emb_230,0.1336751564197111,Text embeddings
+emb_47,0.12854804518525012,Text embeddings
+emb_39,0.12731682863211854,Text embeddings
+mfcc_10_mean,0.1263603327341325,Acoustic
+mfcc_12_mean,0.1246610182678536,Acoustic
+emb_106,0.12303786398942007,Text embeddings
+emb_210,0.12216118093822026,Text embeddings
+emb_224,0.12040852532460075,Text embeddings
+emb_270,0.1199897668404942,Text embeddings
+emb_57,0.11941639329180322,Text embeddings
+emb_291,0.1189028139247044,Text embeddings
+emb_297,0.11872287977637855,Text embeddings
+mfcc_5_mean,0.11779980900111298,Acoustic
+repeated_2gram_ratio,0.11713826870106923,Linguistic
+emb_132,0.11675788723928353,Text embeddings
+emb_256,0.1160616843919437,Text embeddings
+emb_318,0.11449756730808885,Text embeddings
+emb_254,0.11373203382829773,Text embeddings
+emb_79,0.112852108314264,Text embeddings
+mfcc_11_mean,0.1110512002693273,Acoustic
+emb_305,0.11077482736010617,Text embeddings
+emb_307,0.10923897126620616,Text embeddings
+emb_342,0.10799553863856458,Text embeddings
+emb_36,0.10385090348277061,Text embeddings
+emb_181,0.10213891355961487,Text embeddings
+emb_4,0.10166889354516254,Text embeddings
+emb_131,0.1002541185542914,Text embeddings
+emb_240,0.09899662159222314,Text embeddings
+emb_286,0.09771104970262022,Text embeddings
+pos_NOUN,0.09646954622545652,Linguistic
+emb_147,0.09495549519584497,Text embeddings
+emb_339,0.09481720631496035,Text embeddings
+emb_140,0.09390073626648572,Text embeddings
+emb_299,0.0935317864392531,Text embeddings
+emb_294,0.093525809494001,Text embeddings
+emb_129,0.0931940784102032,Text embeddings
+emb_320,0.0890962065864622,Text embeddings
+emb_336,0.0876062547161143,Text embeddings
+emb_193,0.0871277090767293,Text embeddings
+emb_329,0.08702238283256306,Text embeddings
+emb_167,0.08687220998659634,Text embeddings
+emb_238,0.08678458384295433,Text embeddings
+repeated_3gram_ratio,0.086649406668806,Linguistic
+emb_352,0.0864615625918875,Text embeddings
+emb_66,0.08530346358271755,Text embeddings
+mfcc_9_mean,0.08487483054521512,Acoustic
+emb_196,0.08467104556238787,Text embeddings
+emb_279,0.08327926519128233,Text embeddings
+emb_96,0.08081650109855902,Text embeddings
+emb_321,0.07887399927259509,Text embeddings
+emb_6,0.0777817418997839,Text embeddings
+emb_265,0.07608997269286384,Text embeddings
+emb_234,0.07598502680618328,Text embeddings
+emb_40,0.07530878120240501,Text embeddings
+emb_316,0.07484297334447927,Text embeddings
+emb_5,0.07442823742097744,Text embeddings
+words_per_second,0.07435977559469953,Acoustic
+emb_46,0.07306812292742122,Text embeddings
+emb_189,0.07292520379407338,Text embeddings
+emb_322,0.07276830144655182,Text embeddings
+emb_225,0.07235675518057473,Text embeddings
+emb_277,0.07169897288749756,Text embeddings
+emb_48,0.07142865356508353,Text embeddings
+emb_372,0.071423641385066,Text embeddings
+emb_159,0.06946503594835711,Text embeddings
+emb_31,0.06869979009499026,Text embeddings
+emb_65,0.06726878094863326,Text embeddings
+emb_128,0.06692398619048176,Text embeddings
+emb_227,0.06553652911011684,Text embeddings
+emb_373,0.06536409586607755,Text embeddings
+emb_14,0.06529809325984405,Text embeddings
+emb_347,0.06511347477001755,Text embeddings
+emb_157,0.06426113567994172,Text embeddings
+emb_3,0.06420777178107087,Text embeddings
+emb_327,0.06337784510384761,Text embeddings
+emb_370,0.06320586156477241,Text embeddings
+emb_312,0.0631171816108911,Text embeddings
+emb_232,0.06286149258069126,Text embeddings
+emb_20,0.06257007977202647,Text embeddings
+emb_207,0.06246721024423231,Text embeddings
+emb_287,0.062364312129872326,Text embeddings
+emb_311,0.06183959648737256,Text embeddings
+emb_326,0.061026061698302075,Text embeddings
+emb_19,0.060679243277072796,Text embeddings
+emb_324,0.06037461168673363,Text embeddings
+emb_78,0.0600820470776499,Text embeddings
+emb_241,0.060024204020956394,Text embeddings
+emb_237,0.05930995372994335,Text embeddings
+zcr_0_std,0.05930612408607776,Acoustic
+emb_217,0.05922033866854249,Text embeddings
+emb_220,0.058689744208130876,Text embeddings
+emb_358,0.05852637200929118,Text embeddings
+emb_59,0.05797393950044529,Text embeddings
+emb_148,0.05737173700706263,Text embeddings
+emb_280,0.056960485099275274,Text embeddings
+emb_34,0.05679630970473891,Text embeddings
+discourse_filler_proxy,0.056673784230071564,Linguistic
+emb_60,0.056434817124303045,Text embeddings
+emb_77,0.056359314174524396,Text embeddings
+emb_169,0.05603865727838469,Text embeddings
+word_count,0.0550528126380756,Linguistic
+emb_374,0.054928924037511755,Text embeddings
+emb_204,0.05446926099413393,Text embeddings
+emb_182,0.05383830546598304,Text embeddings
+emb_206,0.05257658808184737,Text embeddings
+emb_263,0.05243580526027143,Text embeddings
+emb_61,0.05201241081292314,Text embeddings
+emb_293,0.05054849145549983,Text embeddings
+emb_380,0.048784286508877235,Text embeddings
+emb_264,0.04866959642703027,Text embeddings
+subordinate_proxy,0.048330242589785334,Linguistic
+emb_160,0.048289438893994084,Text embeddings
+emb_315,0.04791136714038359,Text embeddings
+verbs_per_sentence,0.04763756755083931,Linguistic
+emb_346,0.04706582632347977,Text embeddings
+emb_91,0.047036664475882055,Text embeddings
+emb_176,0.04685432159795898,Text embeddings
+emb_340,0.046848536884612005,Text embeddings
+emb_362,0.046393598714883424,Text embeddings
+emb_314,0.04623106334768097,Text embeddings
+emb_100,0.046099688263700325,Text embeddings
+emb_139,0.04475222605430263,Text embeddings
+emb_292,0.04453276554201548,Text embeddings
+sentence_len_median,0.04379105185875068,Linguistic
+emb_202,0.04361008539677665,Text embeddings
+emb_74,0.04240990126397137,Text embeddings
+emb_192,0.04206986936071811,Text embeddings
+emb_215,0.04201511017422674,Text embeddings
+emb_183,0.04195391304977944,Text embeddings
+pos_CCONJ,0.04192437288424755,Linguistic
+type_token_ratio,0.04093096988280626,Linguistic
+emb_229,0.04085193110032112,Text embeddings
+emb_11,0.04016397462486687,Text embeddings
+sentence_len_mean,0.03991502545773983,Linguistic
+emb_2,0.039214469068832344,Text embeddings
+emb_28,0.03897243876718998,Text embeddings
+emb_350,0.03872479085972676,Text embeddings
+emb_136,0.0377291497333828,Text embeddings
+emb_15,0.03756664991618504,Text embeddings
+emb_52,0.037538517693728554,Text embeddings
+emb_260,0.03709529469918396,Text embeddings
+emb_76,0.03633452406844667,Text embeddings
+emb_33,0.03539912401745261,Text embeddings
+emb_7,0.03467099044098478,Text embeddings
+emb_55,0.034584378215112344,Text embeddings
+emb_56,0.03436293603729324,Text embeddings
+emb_247,0.034304995427638756,Text embeddings
+emb_1,0.034203166207204865,Text embeddings
+emb_376,0.03368664497073646,Text embeddings
+emb_144,0.03282311903926431,Text embeddings
+emb_102,0.032373218061237954,Text embeddings
+emb_261,0.03236772977670799,Text embeddings
+emb_165,0.03186276436857116,Text embeddings
+emb_22,0.031346674153067106,Text embeddings
+emb_30,0.03129895945560919,Text embeddings
+emb_85,0.030950105718440434,Text embeddings
+emb_337,0.0308550444458463,Text embeddings
+emb_38,0.03060044593969569,Text embeddings
+emb_92,0.03050851929697132,Text embeddings
+emb_135,0.030351409831144514,Text embeddings
+emb_218,0.030223265091585093,Text embeddings
+emb_331,0.03013609259436229,Text embeddings
+segment_gap_mean,0.02925854579718941,ASR metadata
+emb_101,0.029192849855604146,Text embeddings
+emb_155,0.028710966754058785,Text embeddings
+emb_216,0.02833090660812098,Text embeddings
+emb_276,0.02827614321107565,Text embeddings
+mfcc_3_mean,0.02797342360094438,Acoustic
+emb_235,0.027405197096118605,Text embeddings
+emb_127,0.027292620222882938,Text embeddings
+emb_367,0.02685879387398583,Text embeddings
+emb_186,0.026390611670282796,Text embeddings
+emb_153,0.02589603747369519,Text embeddings
+emb_29,0.025848534492833215,Text embeddings
+emb_71,0.025834372342116416,Text embeddings
+emb_377,0.025454185768128097,Text embeddings
+emb_361,0.025259007280428746,Text embeddings
+emb_13,0.024600452122875417,Text embeddings
+emb_108,0.023829986968235368,Text embeddings
+emb_369,0.02353404445103008,Text embeddings
+emb_239,0.02293952659505474,Text embeddings
+emb_343,0.022900385682141637,Text embeddings
+emb_184,0.02288140177503848,Text embeddings
+emb_349,0.022825616171075088,Text embeddings
+emb_62,0.02271051903018628,Text embeddings
+emb_124,0.022116942977143554,Text embeddings
+emb_145,0.02200642038572065,Text embeddings
+emb_298,0.02155083939791212,Text embeddings
+dependency_distance,0.021391361465724346,Linguistic
+emb_200,0.021354261777565355,Text embeddings
+emb_170,0.021011180171111213,Text embeddings
+emb_107,0.020622344469720253,Text embeddings
+emb_162,0.020508166279176405,Text embeddings
+emb_143,0.02026758360449538,Text embeddings
+emb_142,0.019875593726201728,Text embeddings
+emb_222,0.019562040173651662,Text embeddings
+emb_117,0.01955586977204389,Text embeddings
+emb_16,0.019276739177233434,Text embeddings
+emb_271,0.01926473969649439,Text embeddings
+pos_AUX,0.019034993511097036,Linguistic
+pos_SCONJ,0.01899536476861906,Linguistic
+emb_338,0.018951573856418002,Text embeddings
+emb_115,0.01880603449396422,Text embeddings
+emb_309,0.018085831844664432,Text embeddings
+emb_231,0.017475759937163625,Text embeddings
+emb_288,0.016897024768802272,Text embeddings
+emb_126,0.016726760131179335,Text embeddings
+emb_67,0.016708971306617738,Text embeddings
+emb_164,0.016559660124479614,Text embeddings
+emb_332,0.01639096485346437,Text embeddings
+emb_355,0.016149362794246218,Text embeddings
+emb_18,0.01601136438618916,Text embeddings
+emb_158,0.01598153868971437,Text embeddings
+emb_89,0.01586569044145936,Text embeddings
+emb_190,0.015682941919372202,Text embeddings
+emb_119,0.015482415319045293,Text embeddings
+emb_187,0.015393336847648745,Text embeddings
+emb_114,0.014807723080311901,Text embeddings
+emb_246,0.014671509959204587,Text embeddings
+emb_26,0.014638783356291889,Text embeddings
+sentence_count,0.014304264119065532,Linguistic
+emb_194,0.013591566978137033,Text embeddings
+emb_73,0.013389149369824037,Text embeddings
+emb_25,0.013265321306793802,Text embeddings
+mfcc_7_mean,0.013259230079878065,Acoustic
+emb_313,0.013256111498209103,Text embeddings
+emb_110,0.012667499580816732,Text embeddings
+emb_138,0.012141372476734125,Text embeddings
+emb_360,0.011845394090046597,Text embeddings
+emb_274,0.011696692365554331,Text embeddings
+emb_179,0.010705292285604328,Text embeddings
+emb_51,0.010379744202517313,Text embeddings
+emb_198,0.009750026540277701,Text embeddings
+emb_171,0.009656758096834814,Text embeddings
+emb_150,0.009568593015748552,Text embeddings
+emb_166,0.008736439470116587,Text embeddings
+emb_156,0.008633039275792903,Text embeddings
+emb_359,0.00836687505865316,Text embeddings
+n_segments,0.008272331001458829,ASR metadata
+emb_375,0.008012688225047354,Text embeddings
+emb_24,0.007005779196908139,Text embeddings
+emb_282,0.006674487483418601,Text embeddings
+pos_PRON,0.0061525593277918286,Linguistic
+emb_251,0.005966984277783049,Text embeddings
+emb_236,0.005928090470706042,Text embeddings
+emb_199,0.005695833192878663,Text embeddings
+emb_295,0.00515928336235185,Text embeddings
+clauses_per_sentence,0.0047999798249156785,Linguistic
+emb_103,0.004797226785642573,Text embeddings
+emb_113,0.0045635302276336095,Text embeddings
+emb_175,0.003784143807491993,Text embeddings
+emb_245,0.0037004458741646796,Text embeddings
+emb_259,0.0032285376169005433,Text embeddings
+hesitation_marks,0.00304198957646825,Linguistic
+emb_152,0.00260428996375341,Text embeddings
+emb_141,0.002319060397538609,Text embeddings
+emb_348,0.0017588068545855515,Text embeddings
+emb_0,0.0006346164784455125,Text embeddings
+emb_23,0.0006114832945091538,Text embeddings
+emb_341,0.0,Text embeddings
+empty_transcript,0.0,ASR metadata
+audio_failed,0.0,Acoustic
+emb_121,0.0,Text embeddings
+emb_116,0.0,Text embeddings
+emb_112,0.0,Text embeddings
+emb_111,0.0,Text embeddings
+emb_109,0.0,Text embeddings
+emb_122,0.0,Text embeddings
+emb_105,0.0,Text embeddings
+emb_98,0.0,Text embeddings
+emb_97,0.0,Text embeddings
+emb_94,0.0,Text embeddings
+mfcc_2_mean,0.0,Acoustic
+emb_93,0.0,Text embeddings
+asr_failed,0.0,ASR metadata
+emb_123,0.0,Text embeddings
+emb_86,0.0,Text embeddings
+emb_130,0.0,Text embeddings
+emb_133,0.0,Text embeddings
+verbless_sentence_ratio,0.0,Linguistic
+emb_146,0.0,Text embeddings
+emb_151,0.0,Text embeddings
+emb_154,0.0,Text embeddings
+emb_161,0.0,Text embeddings
+dependency_depth,0.0,Linguistic
+pos_PUNCT,0.0,Linguistic
+pos_ADP,0.0,Linguistic
+pos_DET,0.0,Linguistic
+emb_163,0.0,Text embeddings
+emb_172,0.0,Text embeddings
+emb_88,0.0,Text embeddings
+mfcc_4_mean,0.0,Acoustic
+emb_178,0.0,Text embeddings
+emb_84,0.0,Text embeddings
+missingindicator_no_speech_prob,0.0,ASR metadata
+missingindicator_avg_logprob,0.0,ASR metadata
+emb_9,0.0,Text embeddings
+emb_10,0.0,Text embeddings
+emb_12,0.0,Text embeddings
+emb_17,0.0,Text embeddings
+emb_21,0.0,Text embeddings
+emb_27,0.0,Text embeddings
+emb_32,0.0,Text embeddings
+emb_35,0.0,Text embeddings
+emb_37,0.0,Text embeddings
+emb_41,0.0,Text embeddings
+emb_42,0.0,Text embeddings
+emb_43,0.0,Text embeddings
+emb_44,0.0,Text embeddings
+emb_45,0.0,Text embeddings
+emb_49,0.0,Text embeddings
+emb_50,0.0,Text embeddings
+emb_53,0.0,Text embeddings
+emb_54,0.0,Text embeddings
+emb_63,0.0,Text embeddings
+emb_64,0.0,Text embeddings
+emb_68,0.0,Text embeddings
+emb_69,0.0,Text embeddings
+emb_72,0.0,Text embeddings
+emb_75,0.0,Text embeddings
+emb_81,0.0,Text embeddings
+emb_82,0.0,Text embeddings
+emb_83,0.0,Text embeddings
+emb_173,0.0,Text embeddings
+pos_ADV,0.0,Linguistic
+emb_335,0.0,Text embeddings
+emb_281,0.0,Text embeddings
+emb_252,0.0,Text embeddings
+emb_371,0.0,Text embeddings
+emb_253,0.0,Text embeddings
+emb_255,0.0,Text embeddings
+emb_258,0.0,Text embeddings
+emb_266,0.0,Text embeddings
+emb_366,0.0,Text embeddings
+emb_365,0.0,Text embeddings
+emb_267,0.0,Text embeddings
+emb_268,0.0,Text embeddings
+emb_272,0.0,Text embeddings
+emb_273,0.0,Text embeddings
+emb_275,0.0,Text embeddings
+emb_278,0.0,Text embeddings
+emb_283,0.0,Text embeddings
+pos_ADJ,0.0,Linguistic
+emb_356,0.0,Text embeddings
+emb_284,0.0,Text embeddings
+emb_285,0.0,Text embeddings
+emb_289,0.0,Text embeddings
+emb_296,0.0,Text embeddings
+emb_351,0.0,Text embeddings
+emb_300,0.0,Text embeddings
+emb_302,0.0,Text embeddings
+emb_304,0.0,Text embeddings
+emb_306,0.0,Text embeddings
+emb_319,0.0,Text embeddings
+emb_325,0.0,Text embeddings
+emb_344,0.0,Text embeddings
+emb_328,0.0,Text embeddings
+emb_250,0.0,Text embeddings
+emb_249,0.0,Text embeddings
+emb_244,0.0,Text embeddings
+emb_243,0.0,Text embeddings
+pos_VERB,0.0,Linguistic
+emb_180,0.0,Text embeddings
+emb_188,0.0,Text embeddings
+emb_191,0.0,Text embeddings
+emb_195,0.0,Text embeddings
+self_correction_proxy,0.0,Linguistic
+emb_197,0.0,Text embeddings
+short_sentence_ratio,0.0,Linguistic
+adjacent_repeat_ratio,0.0,Linguistic
+filler_ratio,0.0,Linguistic
+fillers,0.0,Linguistic
+emb_201,0.0,Text embeddings
+hapax_ratio,0.0,Linguistic
+emb_203,0.0,Text embeddings
+emb_208,0.0,Text embeddings
+sentence_len_max,0.0,Linguistic
+emb_209,0.0,Text embeddings
+emb_211,0.0,Text embeddings
+emb_212,0.0,Text embeddings
+emb_213,0.0,Text embeddings
+emb_219,0.0,Text embeddings
+emb_221,0.0,Text embeddings
+emb_223,0.0,Text embeddings
+emb_382,0.0,Text embeddings
+emb_228,0.0,Text embeddings
+emb_233,0.0,Text embeddings
+emb_379,0.0,Text embeddings
+emb_378,0.0,Text embeddings
+emb_242,0.0,Text embeddings
+missingindicator_segment_gap_mean,0.0,ASR metadata

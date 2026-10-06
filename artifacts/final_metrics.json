@@ -1,0 +1,1 @@
+{"model": "Blend 75-25 + nested calibration", "training": {"RMSE": 0.36626922319575195, "Pearson": 0.9572185294952706}, "oof": {"RMSE": 0.660851610083379, "Pearson": 0.84577894179478}, "calibration": true}

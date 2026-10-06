@@ -1,0 +1,29 @@
+[
+  {
+    "repository": "Systran/faster-whisper-base.en",
+    "revision": "3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+    "files": [
+      "config.json",
+      "model.bin",
+      "tokenizer.json",
+      "vocabulary.txt"
+    ]
+  },
+  {
+    "repository": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "files": [
+      "1_Pooling/config.json",
+      "README.md",
+      "config.json",
+      "config_sentence_transformers.json",
+      "model.safetensors",
+      "modules.json",
+      "sentence_bert_config.json",
+      "special_tokens_map.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.txt"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "scipy": "1.18.1",
+  "scikit-learn": "1.9.1",
+  "torch": "2.14.1",
+  "faster-whisper": "1.2.1",
+  "sentence-transformers": "6.1.0",
+  "librosa": "1.0.0",
+  "soundfile": "0.14.0",
+  "catboost": "1.2.10",
+  "lightgbm": "4.7.0",
+  "xgboost": "3.4.1",
+  "spacy": "3.8.16",
+  "en-core-web-sm": "3.8.0"
+}

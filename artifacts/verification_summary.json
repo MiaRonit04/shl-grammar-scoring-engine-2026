@@ -1,0 +1,17 @@
+{
+  "notebook_code_cells_executed": 26,
+  "experiments_verified": 26,
+  "train_rows": 769,
+  "test_rows": 216,
+  "selected_model": "Blend 75-25 + nested calibration",
+  "training_metrics": {
+    "RMSE": 0.36626922319575195,
+    "Pearson": 0.9572185294952706
+  },
+  "oof_metrics": {
+    "RMSE": 0.660851610083379,
+    "Pearson": 0.84577894179478
+  },
+  "submission_written": true,
+  "all_checks_passed": true
+}
