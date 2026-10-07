@@ -2,6 +2,21 @@
 
 Predict continuous spoken-English grammar scores from 0 to 5 using ASR, linguistic features, frozen text embeddings, and supplementary acoustic features.
 
+## Latest improvement — 7 October 2026
+
+The new candidate combines **75% Wav2Vec2 layer-6 speech-feature SVR with 25% CatBoost on richer acoustic and linguistic features**.
+
+- Development OOF RMSE: **0.555232**; Pearson: **0.896311**.
+- Secondary split RMSE: **0.554599**; Pearson: **0.896447**.
+- Full-fit training RMSE: **0.077826**; Pearson: **0.998535** (in-sample).
+- [New submission CSV](experiments/results/Ronit_Mia_v2.csv), [improvement notebook](grammar_scoring_improvements.ipynb), [report](experiments/results/improvement_report.md), and [reproduction instructions](experiments/README.md).
+
+The original CSV received a public Kaggle score of **0.4912**. The new candidate was successfully submitted and scored **0.4337** (11.7% lower), with observed rank **131** on 7 October 2026. The leading score was **0.3064**; first place has not been achieved. [Submission verification](experiments/results/kaggle_submission.json). Local CV metrics are not Kaggle leaderboard scores, and no rank is guaranteed. Model selection reused development folds; the secondary split is a stability check, not an untouched holdout.
+
+Run the original notebook first, then follow the improvement scripts linked above. Intermediate features and recordings remain private.
+
+## Original baseline
+
 **Selected model:** 75% CatBoost + 25% HistGradientBoosting, followed by affine calibration evaluated with nested cross-validation.
 
 - Out-of-fold RMSE: **0.660852**
@@ -13,8 +28,8 @@ These are measured local results from 5-fold development CV, not Kaggle leaderbo
 
 ## Main deliverables
 
-- [Complete notebook](grammar_scoring_engine.ipynb)
-- [Submission CSV — 216 predictions](artifacts/submission.csv)
+- [Original complete notebook](grammar_scoring_engine.ipynb)
+- [Original submission CSV — 216 predictions](artifacts/submission.csv)
 - [Methodology and results report](artifacts/final_report.md)
 - [Model comparison](artifacts/model_results.csv) and [fold metrics](artifacts/fold_metrics.csv)
 - [Independent verification summary](artifacts/verification_summary.json)

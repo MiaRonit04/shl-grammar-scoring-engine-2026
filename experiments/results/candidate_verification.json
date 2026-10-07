@@ -1,0 +1,16 @@
+{
+  "rows": 216,
+  "columns": [
+    "filename",
+    "label"
+  ],
+  "official_order_verified": true,
+  "finite_and_in_range": true,
+  "oof_metrics_independently_recomputed": true,
+  "speech_feature_shape": [
+    985,
+    4608
+  ],
+  "submission_sha256": "de563ceb7374c36a28b3b7c7ed82ddcdc3ed00aac48b4efd2637368ad433cc53",
+  "kaggle_uploaded": false
+}

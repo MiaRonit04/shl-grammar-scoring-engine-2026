@@ -36,3 +36,18 @@ artifacts/*
 !artifacts/validation_diagnostics.png
 !artifacts/final_model_importance.png
 !artifacts/final_report.md
+
+# Private improvement caches and per-record training artifacts
+/experiments/*_cache/
+/experiments/speech_manifest.json
+/experiments/results/*
+!/experiments/results/benchmark.csv
+!/experiments/results/speech_benchmark.csv
+!/experiments/results/candidate_summary.json
+!/experiments/results/secondary_validation.json
+!/experiments/results/candidate_verification.json
+!/experiments/results/runtime.json
+!/experiments/results/improvement_report.md
+!/experiments/results/improvement_validation.png
+!/experiments/results/Ronit_Mia_v2.csv
+!/experiments/results/kaggle_submission.json

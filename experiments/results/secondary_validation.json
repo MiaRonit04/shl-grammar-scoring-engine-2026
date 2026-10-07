@@ -1,0 +1,74 @@
+{
+  "secondary_seed": 2026,
+  "candidate": {
+    "rmse": 0.5545994294413827,
+    "pearson": 0.8964471687666461
+  },
+  "baseline_architecture_uncalibrated": {
+    "rmse": 0.6783042242221993,
+    "pearson": 0.8393495519084503
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "candidate": {
+        "rmse": 0.5697861872554029,
+        "pearson": 0.8893416992859363
+      },
+      "baseline_architecture_uncalibrated": {
+        "rmse": 0.6902077428211878,
+        "pearson": 0.8306768575154855
+      }
+    },
+    {
+      "fold": 1,
+      "candidate": {
+        "rmse": 0.5436274739524403,
+        "pearson": 0.9001810327968648
+      },
+      "baseline_architecture_uncalibrated": {
+        "rmse": 0.687093912428134,
+        "pearson": 0.8333614894340815
+      }
+    },
+    {
+      "fold": 2,
+      "candidate": {
+        "rmse": 0.5087801950960069,
+        "pearson": 0.9142095716595658
+      },
+      "baseline_architecture_uncalibrated": {
+        "rmse": 0.6748489427073313,
+        "pearson": 0.838510626760992
+      }
+    },
+    {
+      "fold": 3,
+      "candidate": {
+        "rmse": 0.5418886801677307,
+        "pearson": 0.9044608191025746
+      },
+      "baseline_architecture_uncalibrated": {
+        "rmse": 0.6776033166578784,
+        "pearson": 0.8440497278604915
+      }
+    },
+    {
+      "fold": 4,
+      "candidate": {
+        "rmse": 0.6046416893870062,
+        "pearson": 0.8789309407842583
+      },
+      "baseline_architecture_uncalibrated": {
+        "rmse": 0.6612736487881978,
+        "pearson": 0.8563642743970182
+      }
+    }
+  ],
+  "full_fit_training": {
+    "rmse": 0.07782569768181377,
+    "pearson": 0.9985350656597974
+  },
+  "test_prediction_strategy": "50% full-data model + 50% original five-fold ensemble",
+  "limitation": "Secondary split is a robustness check, not untouched external validation."
+}

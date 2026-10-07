@@ -9,5 +9,8 @@
   "kaggle_dialog_required_rows": 216,
   "header_required": true,
   "official_sample_submission_unique_ids": 204,
-  "submission_uploaded": false
+  "submission_uploaded": true,
+  "public_score": 0.4912,
+  "public_score_observed_on": "2026-10-07",
+  "public_score_evidence": "User screenshot and signed-in Kaggle leaderboard"
 }
