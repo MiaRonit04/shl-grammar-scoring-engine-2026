@@ -1,0 +1,42 @@
+{
+  "selected": {
+    "model": "layer12_svr10_g1",
+    "rmse": 0.5267133568601654,
+    "pearson": 0.9066649398802702,
+    "folds": [
+      {
+        "rmse": 0.5588913574231194,
+        "pearson": 0.8962402595323228
+      },
+      {
+        "rmse": 0.5262822770902272,
+        "pearson": 0.8991591537671028
+      },
+      {
+        "rmse": 0.5165019538523565,
+        "pearson": 0.9232878165712042
+      },
+      {
+        "rmse": 0.5426910925050209,
+        "pearson": 0.889269290705804
+      },
+      {
+        "rmse": 0.48605238795965094,
+        "pearson": 0.92581471096652
+      }
+    ]
+  },
+  "secondary": {
+    "rmse": 0.5347205331262359,
+    "pearson": 0.9034518421719162
+  },
+  "training": {
+    "rmse": 0.0922116791219554,
+    "pearson": 0.997925515433846
+  },
+  "model": "microsoft/wavlm-large",
+  "revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+  "fingerprint": "55b99bbbed198b6b78698625631aa366759b811601004174db8d88618b9a0d89",
+  "pooling": "meanstd",
+  "limitation": "Development selection and secondary split reuse labels; neither is an untouched holdout."
+}

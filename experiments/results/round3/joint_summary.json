@@ -1,0 +1,16 @@
+{
+  "selected": {
+    "model": "speech_svr10",
+    "rmse": 0.5242313903953919,
+    "pearson": 0.9101503417985359
+  },
+  "secondary": {
+    "rmse": 0.5329191620590781,
+    "pearson": 0.9059628563347945
+  },
+  "training": {
+    "rmse": 0.09216175702602347,
+    "pearson": 0.9979397381242991
+  },
+  "method": "WavLM layer12 and Whisper layer32 mean/std; fold-fitted standardization and block scaling; SVR"
+}

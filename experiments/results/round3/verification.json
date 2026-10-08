@@ -1,0 +1,13 @@
+{
+  "rows": 216,
+  "columns": [
+    "filename",
+    "label"
+  ],
+  "official_test_order_matches": true,
+  "finite": true,
+  "bounded_0_5": true,
+  "sha256": "c08ecbbc694ca65213141e41f949f9caace672e08ed5863aaac20c3ee8290c31",
+  "prediction_min": 1.9807711171880045,
+  "prediction_max": 4.950699358149594
+}

@@ -1,0 +1,315 @@
+{
+  "selected": {
+    "name": "shl-wavlm-results_0.5+shl-whisper-results_0.25+reference_0.25",
+    "development": {
+      "rmse": 0.5050635339778996,
+      "pearson": 0.9169768319303417
+    },
+    "secondary": {
+      "rmse": 0.5102476232027389,
+      "pearson": 0.9148308941636932
+    },
+    "training": {
+      "rmse": 0.07852838500980172,
+      "pearson": 0.9986281175639807
+    }
+  },
+  "baseline": {
+    "development": {
+      "rmse": 0.5552323709566822,
+      "pearson": 0.8963106021288851
+    },
+    "secondary": {
+      "rmse": 0.5545994294413827,
+      "pearson": 0.8964471687666461
+    }
+  },
+  "passed_export_gate": true,
+  "development_comparison": [
+    {
+      "name": "shl-wavlm-results_0.5+shl-whisper-results_0.25+reference_0.25",
+      "development": {
+        "rmse": 0.5050635339778996,
+        "pearson": 0.9169768319303417
+      },
+      "secondary": {
+        "rmse": 0.5102476232027389,
+        "pearson": 0.9148308941636932
+      },
+      "training": {
+        "rmse": 0.07852838500980172,
+        "pearson": 0.9986281175639807
+      }
+    },
+    {
+      "name": "shl-wavlm-results_0.5+shl-whisper-results_0.5+reference_0.0",
+      "development": {
+        "rmse": 0.5079661560848489,
+        "pearson": 0.9151948837864732
+      }
+    },
+    {
+      "name": "shl-wavlm-results_0.25+shl-whisper-results_0.5+reference_0.25",
+      "development": {
+        "rmse": 0.5115117852290121,
+        "pearson": 0.9144638070127975
+      }
+    },
+    {
+      "name": "shl-wavlm-results_0.25+shl-whisper-results_0.25+reference_0.5",
+      "development": {
+        "rmse": 0.5129345048038046,
+        "pearson": 0.9144009424204753
+      }
+    },
+    {
+      "name": "shl-wavlm-results_0.5+shl-likelihood-results_0.25+reference_0.25",
+      "development": {
+        "rmse": 0.519682528307461,
+        "pearson": 0.9123364574151376
+      }
+    },
+    {
+      "name": "shl-wavlm-results_weight0.75",
+      "development": {
+        "rmse": 0.5206258355819131,
+        "pearson": 0.9098987791118537
+      }
+    },
+    {
+      "name": "shl-wavlm-results_weight0.5",
+      "development": {
+        "rmse": 0.523515709773258,
+        "pearson": 0.9093559939800878
+      }
+    },
+    {
+      "name": "shl-whisper-results_weight0.5",
+      "development": {
+        "rmse": 0.5240726423429262,
+        "pearson": 0.909710573755443
+      }
+    },
+    {
+      "name": "shl-likelihood-results_0.25+shl-whisper-results_0.5+reference_0.25",
+      "development": {
+        "rmse": 0.5254598505513903,
+        "pearson": 0.9103898144259728
+      }
+    },
+    {
+      "name": "shl-wavlm-results_weight1.0",
+      "development": {
+        "rmse": 0.5267133568601654,
+        "pearson": 0.9066649398802702
+      }
+    },
+    {
+      "name": "shl-likelihood-results_0.25+shl-whisper-results_0.25+reference_0.5",
+      "development": {
+        "rmse": 0.5280836669936737,
+        "pearson": 0.9098222759083303
+      }
+    },
+    {
+      "name": "shl-whisper-results_weight0.25",
+      "development": {
+        "rmse": 0.5296296596736016,
+        "pearson": 0.9077307326156933
+      }
+    },
+    {
+      "name": "shl-wavlm-results_0.5+shl-likelihood-results_0.5+reference_0.0",
+      "development": {
+        "rmse": 0.5302598105092055,
+        "pearson": 0.9088252180072013
+      }
+    },
+    {
+      "name": "shl-wavlm-results_0.25+shl-likelihood-results_0.25+reference_0.5",
+      "development": {
+        "rmse": 0.531146601444681,
+        "pearson": 0.9079872866610578
+      }
+    },
+    {
+      "name": "shl-wavlm-results_weight0.25",
+      "development": {
+        "rmse": 0.5352375859438522,
+        "pearson": 0.9048420185570664
+      }
+    },
+    {
+      "name": "shl-whisper-results_weight0.75",
+      "development": {
+        "rmse": 0.5391814721382248,
+        "pearson": 0.9024012432735762
+      }
+    },
+    {
+      "name": "shl-likelihood-results_0.5+shl-whisper-results_0.25+reference_0.25",
+      "development": {
+        "rmse": 0.5406860890106032,
+        "pearson": 0.9052585179064085
+      }
+    },
+    {
+      "name": "shl-likelihood-results_0.5+shl-whisper-results_0.5+reference_0.0",
+      "development": {
+        "rmse": 0.5409882431211134,
+        "pearson": 0.9044223400962268
+      }
+    },
+    {
+      "name": "shl-wavlm-results_0.25+shl-likelihood-results_0.5+reference_0.25",
+      "development": {
+        "rmse": 0.5411639821810516,
+        "pearson": 0.9046200260266246
+      }
+    },
+    {
+      "name": "shl-likelihood-results_weight0.25",
+      "development": {
+        "rmse": 0.5509597367757522,
+        "pearson": 0.8994662084156275
+      }
+    },
+    {
+      "name": "reference_v2",
+      "development": {
+        "rmse": 0.5552323709566822,
+        "pearson": 0.8963106021288851
+      }
+    },
+    {
+      "name": "shl-likelihood-results_weight0.5",
+      "development": {
+        "rmse": 0.5602986542036489,
+        "pearson": 0.8961730889416393
+      }
+    },
+    {
+      "name": "shl-whisper-results_weight1.0",
+      "development": {
+        "rmse": 0.5733246486420368,
+        "pearson": 0.8867602049830149
+      }
+    },
+    {
+      "name": "shl-likelihood-results_weight0.75",
+      "development": {
+        "rmse": 0.5825949165770508,
+        "pearson": 0.8861020946510088
+      }
+    },
+    {
+      "name": "shl-likelihood-results_weight1.0",
+      "development": {
+        "rmse": 0.6164441550578672,
+        "pearson": 0.8693664643869161
+      }
+    }
+  ],
+  "components": {
+    "shl-wavlm-results": {
+      "selected": {
+        "model": "layer12_svr10_g1",
+        "rmse": 0.5267133568601654,
+        "pearson": 0.9066649398802702,
+        "folds": [
+          {
+            "rmse": 0.5588913574231194,
+            "pearson": 0.8962402595323228
+          },
+          {
+            "rmse": 0.5262822770902272,
+            "pearson": 0.8991591537671028
+          },
+          {
+            "rmse": 0.5165019538523565,
+            "pearson": 0.9232878165712042
+          },
+          {
+            "rmse": 0.5426910925050209,
+            "pearson": 0.889269290705804
+          },
+          {
+            "rmse": 0.48605238795965094,
+            "pearson": 0.92581471096652
+          }
+        ]
+      },
+      "secondary": {
+        "rmse": 0.5347205331262359,
+        "pearson": 0.9034518421719162
+      },
+      "training": {
+        "rmse": 0.0922116791219554,
+        "pearson": 0.997925515433846
+      },
+      "model": "microsoft/wavlm-large",
+      "revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+      "fingerprint": "55b99bbbed198b6b78698625631aa366759b811601004174db8d88618b9a0d89",
+      "pooling": "meanstd",
+      "limitation": "Development selection and secondary split reuse labels; neither is an untouched holdout."
+    },
+    "shl-likelihood-results": {
+      "selected": {
+        "model": "extended_likelihood_cat5",
+        "rmse": 0.6164441550578672,
+        "pearson": 0.8693664643869161
+      },
+      "secondary": {
+        "rmse": 0.6085972196684146,
+        "pearson": 0.8724979522565172
+      },
+      "training": {
+        "rmse": 0.0626766270955289,
+        "pearson": 0.9989684859248572
+      }
+    },
+    "shl-whisper-results": {
+      "selected": {
+        "model": "layer32_svr30_g0.25",
+        "rmse": 0.5733246486420368,
+        "pearson": 0.8867602049830149,
+        "folds": [
+          {
+            "rmse": 0.5860070090308057,
+            "pearson": 0.8846944486310135
+          },
+          {
+            "rmse": 0.5541580693950983,
+            "pearson": 0.8869380528581006
+          },
+          {
+            "rmse": 0.5741457913336312,
+            "pearson": 0.9013761365993628
+          },
+          {
+            "rmse": 0.6115743997998779,
+            "pearson": 0.8546253248889707
+          },
+          {
+            "rmse": 0.5376676566903598,
+            "pearson": 0.90457184801451
+          }
+        ]
+      },
+      "secondary": {
+        "rmse": 0.5754984271070639,
+        "pearson": 0.8857496141688814
+      },
+      "training": {
+        "rmse": 0.09264496775052578,
+        "pearson": 0.9976947511666481
+      },
+      "model": "openai/whisper-large-v3-turbo",
+      "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+      "fingerprint": "0dc5df0936f7bae4e0357b9d17a3754e122f45cb9808f7a0f8b2dfb0397d6207",
+      "pooling": "meanstd",
+      "limitation": "Development selection and secondary split reuse labels; neither is an untouched holdout."
+    }
+  },
+  "limitation": "Development folds are reused for selection; second split is a stability check, not an untouched holdout."
+}

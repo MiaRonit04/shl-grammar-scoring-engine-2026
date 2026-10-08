@@ -2,6 +2,19 @@
 
 Predict continuous spoken-English grammar scores from 0 to 5 using ASR, linguistic features, frozen text embeddings, and supplementary acoustic features.
 
+## Latest verified submission — 9 October 2026
+
+**Kaggle public score: 0.4017**, improved from 0.4337 (original: 0.4912). Observed rank: **113**; leading score: **0.3064**. Rank #1 has not been reached.
+
+The selected blend combines 50% WavLM-large SVR, 25% Whisper encoder SVR, and 25% of the previous ensemble. Development OOF RMSE is **0.505064** (Pearson **0.916977**); secondary-split RMSE is **0.510248** (Pearson **0.914831**). Full-fit training RMSE is **0.078528**, an in-sample result.
+
+- [Submitted CSV](experiments/results/round3/Ronit_Mia_v3.csv)
+- [Reproduction notebook](grammar_scoring_round3.ipynb)
+- [Method and validation report](experiments/results/round3/report.md)
+- [Verified Kaggle result](experiments/results/round3/kaggle_submission.json)
+
+Local model selection reused development folds; the secondary split is a stability check, not an untouched holdout. Raw recordings, transcripts and intermediate features remain private.
+
 ## Latest improvement — 7 October 2026
 
 The new candidate combines **75% Wav2Vec2 layer-6 speech-feature SVR with 25% CatBoost on richer acoustic and linguistic features**.

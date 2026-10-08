@@ -1,0 +1,42 @@
+{
+  "selected": {
+    "model": "layer32_svr30_g0.25",
+    "rmse": 0.5733246486420368,
+    "pearson": 0.8867602049830149,
+    "folds": [
+      {
+        "rmse": 0.5860070090308057,
+        "pearson": 0.8846944486310135
+      },
+      {
+        "rmse": 0.5541580693950983,
+        "pearson": 0.8869380528581006
+      },
+      {
+        "rmse": 0.5741457913336312,
+        "pearson": 0.9013761365993628
+      },
+      {
+        "rmse": 0.6115743997998779,
+        "pearson": 0.8546253248889707
+      },
+      {
+        "rmse": 0.5376676566903598,
+        "pearson": 0.90457184801451
+      }
+    ]
+  },
+  "secondary": {
+    "rmse": 0.5754984271070639,
+    "pearson": 0.8857496141688814
+  },
+  "training": {
+    "rmse": 0.09264496775052578,
+    "pearson": 0.9976947511666481
+  },
+  "model": "openai/whisper-large-v3-turbo",
+  "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "fingerprint": "0dc5df0936f7bae4e0357b9d17a3754e122f45cb9808f7a0f8b2dfb0397d6207",
+  "pooling": "meanstd",
+  "limitation": "Development selection and secondary split reuse labels; neither is an untouched holdout."
+}

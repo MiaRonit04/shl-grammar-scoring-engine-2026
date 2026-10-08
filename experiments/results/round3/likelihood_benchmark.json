@@ -1,0 +1,17 @@
+[
+  {
+    "model": "likelihood_cat3",
+    "rmse": 1.1567672781380594,
+    "pearson": 0.3870684078161262
+  },
+  {
+    "model": "extended_likelihood_cat4",
+    "rmse": 0.6244804653020347,
+    "pearson": 0.8649384406096936
+  },
+  {
+    "model": "extended_likelihood_cat5",
+    "rmse": 0.6164441550578672,
+    "pearson": 0.8693664643869161
+  }
+]

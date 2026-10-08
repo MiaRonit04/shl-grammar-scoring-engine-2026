@@ -1,0 +1,32 @@
+[
+  {
+    "model": "speech_svr3",
+    "rmse": 0.5242554864274568,
+    "pearson": 0.9101400466896168
+  },
+  {
+    "model": "speech_svr10",
+    "rmse": 0.5242313903953919,
+    "pearson": 0.9101503417985359
+  },
+  {
+    "model": "speech_svr30",
+    "rmse": 0.5242313903953919,
+    "pearson": 0.9101503417985359
+  },
+  {
+    "model": "speech_handcrafted_svr3",
+    "rmse": 0.5359863081775412,
+    "pearson": 0.905171553935478
+  },
+  {
+    "model": "speech_handcrafted_svr10",
+    "rmse": 0.5360316336071818,
+    "pearson": 0.9051552565167463
+  },
+  {
+    "model": "speech_handcrafted_svr30",
+    "rmse": 0.5360316336071818,
+    "pearson": 0.9051552565167463
+  }
+]

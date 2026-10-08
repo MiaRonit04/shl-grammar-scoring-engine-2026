@@ -1,0 +1,15 @@
+{
+  "selected": {
+    "model": "extended_likelihood_cat5",
+    "rmse": 0.6164441550578672,
+    "pearson": 0.8693664643869161
+  },
+  "secondary": {
+    "rmse": 0.6085972196684146,
+    "pearson": 0.8724979522565172
+  },
+  "training": {
+    "rmse": 0.0626766270955289,
+    "pearson": 0.9989684859248572
+  }
+}
