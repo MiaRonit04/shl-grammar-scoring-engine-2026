@@ -1,0 +1,119 @@
+{
+  "selected": {
+    "name": "shl-w2vbert-results_weight0.25",
+    "development": {
+      "rmse": 0.5043734690037104,
+      "pearson": 0.917746989744958
+    },
+    "secondary": {
+      "rmse": 0.5086793956178103,
+      "pearson": 0.9157691245828582
+    },
+    "training": {
+      "rmse": 0.07808623777685304,
+      "pearson": 0.99869268097754
+    }
+  },
+  "baseline": {
+    "development": {
+      "rmse": 0.5050635339778996,
+      "pearson": 0.9169768319303417
+    },
+    "secondary": {
+      "rmse": 0.5102476232027389,
+      "pearson": 0.9148308941636932
+    }
+  },
+  "reference_name": "reference_v3",
+  "passed_export_gate": false,
+  "development_comparison": [
+    {
+      "name": "shl-w2vbert-results_weight0.25",
+      "development": {
+        "rmse": 0.5043734690037104,
+        "pearson": 0.917746989744958
+      },
+      "secondary": {
+        "rmse": 0.5086793956178103,
+        "pearson": 0.9157691245828582
+      },
+      "training": {
+        "rmse": 0.07808623777685304,
+        "pearson": 0.99869268097754
+      }
+    },
+    {
+      "name": "reference_v3",
+      "development": {
+        "rmse": 0.5050635339778996,
+        "pearson": 0.9169768319303417
+      }
+    },
+    {
+      "name": "shl-w2vbert-results_weight0.5",
+      "development": {
+        "rmse": 0.5128180815441112,
+        "pearson": 0.9144722223034629
+      }
+    },
+    {
+      "name": "shl-w2vbert-results_weight0.75",
+      "development": {
+        "rmse": 0.5299608843353278,
+        "pearson": 0.9071655840672985
+      }
+    },
+    {
+      "name": "shl-w2vbert-results_weight1.0",
+      "development": {
+        "rmse": 0.5549964492999364,
+        "pearson": 0.8959981291696795
+      }
+    }
+  ],
+  "components": {
+    "shl-w2vbert-results": {
+      "selected": {
+        "model": "layer6_svr10_g1",
+        "rmse": 0.5549964492999364,
+        "pearson": 0.8959981291696795,
+        "folds": [
+          {
+            "rmse": 0.5866356342560141,
+            "pearson": 0.8854555075758512
+          },
+          {
+            "rmse": 0.5350523843872739,
+            "pearson": 0.895255471535056
+          },
+          {
+            "rmse": 0.5590271196242336,
+            "pearson": 0.9084114344690732
+          },
+          {
+            "rmse": 0.5544222868961274,
+            "pearson": 0.8842357432906224
+          },
+          {
+            "rmse": 0.5382084223214431,
+            "pearson": 0.9066240100752023
+          }
+        ]
+      },
+      "secondary": {
+        "rmse": 0.556315296202844,
+        "pearson": 0.8949415908377112
+      },
+      "training": {
+        "rmse": 0.09250062428565942,
+        "pearson": 0.9979554036716604
+      },
+      "model": "facebook/w2v-bert-2.0",
+      "revision": "da985ba0987f70aaeb84a80f2851cfac8c697a7b",
+      "fingerprint": "eb7443c3e3bcb4370920df6cb8bef668ffb6049730ab8ea0d20f1d6cccca383e",
+      "pooling": "meanstd",
+      "limitation": "Development selection and secondary split reuse labels; neither is an untouched holdout."
+    }
+  },
+  "limitation": "Development folds are reused for selection; second split is a stability check, not an untouched holdout."
+}

@@ -1,0 +1,93 @@
+{
+  "selected": {
+    "name": "reference_v3",
+    "development": {
+      "rmse": 0.5050635339778996,
+      "pearson": 0.9169768319303417
+    },
+    "secondary": {
+      "rmse": 0.5102476232027389,
+      "pearson": 0.9148308941636932
+    },
+    "training": {
+      "rmse": 0.07852838500980172,
+      "pearson": 0.9986281175639807
+    }
+  },
+  "baseline": {
+    "development": {
+      "rmse": 0.5050635339778996,
+      "pearson": 0.9169768319303417
+    },
+    "secondary": {
+      "rmse": 0.5102476232027389,
+      "pearson": 0.9148308941636932
+    }
+  },
+  "reference_name": "reference_v3",
+  "passed_export_gate": false,
+  "development_comparison": [
+    {
+      "name": "reference_v3",
+      "development": {
+        "rmse": 0.5050635339778996,
+        "pearson": 0.9169768319303417
+      },
+      "secondary": {
+        "rmse": 0.5102476232027389,
+        "pearson": 0.9148308941636932
+      },
+      "training": {
+        "rmse": 0.07852838500980172,
+        "pearson": 0.9986281175639807
+      }
+    },
+    {
+      "name": "shl-krr-results_weight0.25",
+      "development": {
+        "rmse": 0.5053269436134615,
+        "pearson": 0.9164783972230349
+      }
+    },
+    {
+      "name": "shl-krr-results_weight0.5",
+      "development": {
+        "rmse": 0.5089009048177578,
+        "pearson": 0.9146121062910402
+      }
+    },
+    {
+      "name": "shl-krr-results_weight0.75",
+      "development": {
+        "rmse": 0.5157165949453973,
+        "pearson": 0.911437580282016
+      }
+    },
+    {
+      "name": "shl-krr-results_weight1.0",
+      "development": {
+        "rmse": 0.525647929773294,
+        "pearson": 0.9070288442521811
+      }
+    }
+  ],
+  "components": {
+    "shl-krr-results": {
+      "selected": {
+        "model": "wavlm_krr0.01",
+        "rmse": 0.525647929773294,
+        "pearson": 0.9070288442521811
+      },
+      "secondary": {
+        "rmse": 0.5329584867258756,
+        "pearson": 0.9039762302724946
+      },
+      "training": {
+        "rmse": 0.015736948935921858,
+        "pearson": 0.9999366612030398
+      },
+      "method": "RBF kernel ridge with fold-fitted input scaling and target centering/scaling"
+    }
+  },
+  "limitation": "Development folds are reused for selection; second split is a stability check, not an untouched holdout."
+}

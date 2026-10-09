@@ -68,3 +68,14 @@ artifacts/*
 !/experiments/results/round3/wavlm_summary.json
 !/experiments/results/round3/whisper_benchmark.json
 !/experiments/results/round3/whisper_summary.json
+
+# Further experimental caches and model weights
+*.npz
+*.pt
+*.safetensors
+/experiments/private_round4/
+!/experiments/results/round4/
+/experiments/results/round4/*
+!/experiments/results/round4/*_summary.json
+!/experiments/results/round4/*_benchmark.json
+!/experiments/results/round4/*_blend.json

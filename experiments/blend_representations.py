@@ -14,6 +14,9 @@ def main():
     parser.add_argument('--metadata', type=Path, required=True)
     parser.add_argument('--candidate', type=Path, action='append', required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--reference-predictions',type=Path)
+    parser.add_argument('--reference-name',default='reference_v2')
+    parser.add_argument('--filename',default='Ronit_Mia_v3.csv')
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     folds = pd.read_csv(args.metadata/'folds.csv')
@@ -32,7 +35,12 @@ def main():
     reference = {'oof': old_oof.prediction.to_numpy(), 'secondary': old_secondary.candidate.to_numpy(),
                  'test': old_test.label.to_numpy(),
                  'train': .25*prepared['base_train']+.75*np.clip(speech_model.predict(sx[:len(y)]),0,5)}
-    candidates = {'reference_v2': reference}
+    if args.reference_predictions:
+        loaded=np.load(args.reference_predictions)
+        reference={key:loaded[key] for key in reference}
+        assert all(reference[key].shape==(len(test) if key=='test' else len(y),) for key in reference)
+        assert all(np.isfinite(value).all() for value in reference.values())
+    candidates = {args.reference_name: reference}
     provenance = {}
     components = {}
     for path in args.candidate:
@@ -60,7 +68,7 @@ def main():
     baseline = {'development': metrics(y, reference['oof']), 'secondary': metrics(y, reference['secondary'])}
     passed = (selected['development']['rmse'] < baseline['development']['rmse']-.002
               and selected['secondary']['rmse'] < baseline['secondary']['rmse']-.002)
-    summary = {'selected': selected, 'baseline': baseline, 'passed_export_gate': passed,
+    summary = {'selected': selected, 'baseline': baseline, 'reference_name':args.reference_name,'passed_export_gate': passed,
                'development_comparison': results, 'components': provenance,
                'limitation': 'Development folds are reused for selection; second split is a stability check, not an untouched holdout.'}
     (args.output/'blend_summary.json').write_text(json.dumps(summary, indent=2))
@@ -68,7 +76,7 @@ def main():
         submission = pd.DataFrame({'filename': test.filename, 'label': pred['test']})
         assert len(submission)==216 and submission.filename.is_unique
         assert np.isfinite(submission.label).all() and submission.label.between(0,5).all()
-        submission.to_csv(args.output/'Ronit_Mia_v3.csv', index=False)
+        submission.to_csv(args.output/args.filename, index=False)
         np.savez(args.output/'selected_predictions.npz', **pred)
     print(json.dumps(summary, indent=2), flush=True)
 

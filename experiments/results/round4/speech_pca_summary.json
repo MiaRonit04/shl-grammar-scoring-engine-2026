@@ -1,0 +1,40 @@
+{
+  "selected": {
+    "model": "wavlm_pca256_svr10",
+    "rmse": 0.5269663848126513,
+    "pearson": 0.9061179080570857,
+    "folds": [
+      {
+        "rmse": 0.5518695570883038,
+        "pearson": 0.8949589102122697
+      },
+      {
+        "rmse": 0.547318171220616,
+        "pearson": 0.8945466874338468
+      },
+      {
+        "rmse": 0.49149847161211047,
+        "pearson": 0.9283592579277414
+      },
+      {
+        "rmse": 0.5473430597120907,
+        "pearson": 0.8883971774979815
+      },
+      {
+        "rmse": 0.4929198867720826,
+        "pearson": 0.9243345024731694
+      }
+    ]
+  },
+  "secondary": {
+    "rmse": 0.5372993021696745,
+    "pearson": 0.9022548588235205
+  },
+  "training": {
+    "rmse": 0.09168801252194514,
+    "pearson": 0.9978429345697457
+  },
+  "fingerprint": "3f522bbe994e8b88798a2f8d2d0d315cc043b8dbe0ce2803a3aa5768e445c2f7",
+  "method": "Fold-fitted StandardScaler/PCA/SVR",
+  "limitation": "Development selection and secondary split reuse labels; neither is an untouched holdout."
+}

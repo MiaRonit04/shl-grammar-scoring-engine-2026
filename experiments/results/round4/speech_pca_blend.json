@@ -1,0 +1,117 @@
+{
+  "selected": {
+    "name": "shl-speech-pca_weight0.25",
+    "development": {
+      "rmse": 0.5031030271418387,
+      "pearson": 0.9163635223106801
+    },
+    "secondary": {
+      "rmse": 0.5102779118064111,
+      "pearson": 0.9136404633173402
+    },
+    "training": {
+      "rmse": 0.08005318092114204,
+      "pearson": 0.9985430133169603
+    }
+  },
+  "baseline": {
+    "development": {
+      "rmse": 0.5050635339778996,
+      "pearson": 0.9169768319303417
+    },
+    "secondary": {
+      "rmse": 0.5102476232027389,
+      "pearson": 0.9148308941636932
+    }
+  },
+  "reference_name": "reference_v3",
+  "passed_export_gate": false,
+  "development_comparison": [
+    {
+      "name": "shl-speech-pca_weight0.25",
+      "development": {
+        "rmse": 0.5031030271418387,
+        "pearson": 0.9163635223106801
+      },
+      "secondary": {
+        "rmse": 0.5102779118064111,
+        "pearson": 0.9136404633173402
+      },
+      "training": {
+        "rmse": 0.08005318092114204,
+        "pearson": 0.9985430133169603
+      }
+    },
+    {
+      "name": "reference_v3",
+      "development": {
+        "rmse": 0.5050635339778996,
+        "pearson": 0.9169768319303417
+      }
+    },
+    {
+      "name": "shl-speech-pca_weight0.5",
+      "development": {
+        "rmse": 0.5061829870073394,
+        "pearson": 0.9142234832746885
+      }
+    },
+    {
+      "name": "shl-speech-pca_weight0.75",
+      "development": {
+        "rmse": 0.5142128495121615,
+        "pearson": 0.9107465442442227
+      }
+    },
+    {
+      "name": "shl-speech-pca_weight1.0",
+      "development": {
+        "rmse": 0.5269663848126513,
+        "pearson": 0.9061179080570857
+      }
+    }
+  ],
+  "components": {
+    "shl-speech-pca": {
+      "selected": {
+        "model": "wavlm_pca256_svr10",
+        "rmse": 0.5269663848126513,
+        "pearson": 0.9061179080570857,
+        "folds": [
+          {
+            "rmse": 0.5518695570883038,
+            "pearson": 0.8949589102122697
+          },
+          {
+            "rmse": 0.547318171220616,
+            "pearson": 0.8945466874338468
+          },
+          {
+            "rmse": 0.49149847161211047,
+            "pearson": 0.9283592579277414
+          },
+          {
+            "rmse": 0.5473430597120907,
+            "pearson": 0.8883971774979815
+          },
+          {
+            "rmse": 0.4929198867720826,
+            "pearson": 0.9243345024731694
+          }
+        ]
+      },
+      "secondary": {
+        "rmse": 0.5372993021696745,
+        "pearson": 0.9022548588235205
+      },
+      "training": {
+        "rmse": 0.09168801252194514,
+        "pearson": 0.9978429345697457
+      },
+      "fingerprint": "3f522bbe994e8b88798a2f8d2d0d315cc043b8dbe0ce2803a3aa5768e445c2f7",
+      "method": "Fold-fitted StandardScaler/PCA/SVR",
+      "limitation": "Development selection and secondary split reuse labels; neither is an untouched holdout."
+    }
+  },
+  "limitation": "Development folds are reused for selection; second split is a stability check, not an untouched holdout."
+}

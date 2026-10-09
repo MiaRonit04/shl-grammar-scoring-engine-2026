@@ -1,0 +1,16 @@
+{
+  "selected": {
+    "model": "wavlm_krr0.01",
+    "rmse": 0.525647929773294,
+    "pearson": 0.9070288442521811
+  },
+  "secondary": {
+    "rmse": 0.5329584867258756,
+    "pearson": 0.9039762302724946
+  },
+  "training": {
+    "rmse": 0.015736948935921858,
+    "pearson": 0.9999366612030398
+  },
+  "method": "RBF kernel ridge with fold-fitted input scaling and target centering/scaling"
+}

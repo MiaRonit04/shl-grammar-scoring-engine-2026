@@ -1,0 +1,42 @@
+{
+  "selected": {
+    "model": "layer12_svr3_g1",
+    "rmse": 0.9684535284869846,
+    "pearson": 0.6247655622180661,
+    "folds": [
+      {
+        "rmse": 0.9496327363589032,
+        "pearson": 0.641367868663973
+      },
+      {
+        "rmse": 0.9612788672444526,
+        "pearson": 0.6038977264784632
+      },
+      {
+        "rmse": 1.0273592179662812,
+        "pearson": 0.6356348179768381
+      },
+      {
+        "rmse": 0.9650577906717213,
+        "pearson": 0.5726637590968247
+      },
+      {
+        "rmse": 0.936188678698086,
+        "pearson": 0.6881913067002943
+      }
+    ]
+  },
+  "secondary": {
+    "rmse": 0.9622549165814648,
+    "pearson": 0.6323171990331087
+  },
+  "training": {
+    "rmse": 0.3233753024943812,
+    "pearson": 0.973325559888152
+  },
+  "model": "textattack/roberta-base-CoLA",
+  "revision": "3ccf3a400f2fa75ff257eac171047603ffbe84f1",
+  "fingerprint": "7d8931f99d48a851931df763fad53678a244166723cc1827e2fde3e7145be0c7",
+  "pooling": "meanstd",
+  "limitation": "Development selection and secondary split reuse labels; neither is an untouched holdout."
+}
