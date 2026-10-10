@@ -1,0 +1,20 @@
+{
+  "selected": {
+    "model": "extended_acceptability_cat5",
+    "rmse": 0.5978107803800556,
+    "pearson": 0.87779285430874
+  },
+  "secondary": {
+    "rmse": 0.6004902838023073,
+    "pearson": 0.8759817179445588
+  },
+  "training": {
+    "rmse": 0.056340708848788515,
+    "pearson": 0.9991640679675468
+  },
+  "model": "textattack/roberta-base-CoLA",
+  "revision": "3ccf3a400f2fa75ff257eac171047603ffbe84f1",
+  "feature_name": "acceptability",
+  "fingerprint": "be33b1adf6b92f5c34dfa2ce3f635848b39ae7a308352e38b606f15b0a11c4db",
+  "limitation": "Development selection and secondary splits reuse labels; neither is an untouched holdout."
+}

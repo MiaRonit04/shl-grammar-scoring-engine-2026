@@ -153,6 +153,7 @@ def main():
             z = np.load(dest)
             assert str(z['fingerprint']) == digest
             return {e:z[str(e)] for e in epochs}
+        save_path = save_path or args.output/(name+'.pt')
         values = fit_run(x, lengths, means, squares, y, tr, ids, seed, epochs, device, save_path)
         np.savez(dest, fingerprint=digest, **{str(e):a for e,a in values.items()})
         return values

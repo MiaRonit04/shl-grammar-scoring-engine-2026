@@ -1,0 +1,17 @@
+[
+  {
+    "model": "acceptability_cat3",
+    "rmse": 1.0545485252164741,
+    "pearson": 0.5332366154521698
+  },
+  {
+    "model": "extended_acceptability_cat4",
+    "rmse": 0.6071125832199264,
+    "pearson": 0.8730319628224362
+  },
+  {
+    "model": "extended_acceptability_cat5",
+    "rmse": 0.5978107803800556,
+    "pearson": 0.87779285430874
+  }
+]

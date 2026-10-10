@@ -1,0 +1,15 @@
+{
+  "python": "3.14.3",
+  "system": "Darwin",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.1",
+    "transformers": "5.18.0",
+    "catboost": "1.2.10",
+    "soundfile": "0.14.0"
+  }
+}

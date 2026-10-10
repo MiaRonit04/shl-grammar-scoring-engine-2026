@@ -1,0 +1,45 @@
+{
+  "selected": {
+    "model": "finetune_two_blocks_epoch4",
+    "epochs": 4,
+    "rmse": 0.5680319417227918,
+    "pearson": 0.889278581686082,
+    "folds": [
+      {
+        "rmse": 0.5795384363238693,
+        "pearson": 0.8860882078447805
+      },
+      {
+        "rmse": 0.5838345688595348,
+        "pearson": 0.8759645375895893
+      },
+      {
+        "rmse": 0.554710954079264,
+        "pearson": 0.9080373693726717
+      },
+      {
+        "rmse": 0.6135638573037471,
+        "pearson": 0.8551194482828051
+      },
+      {
+        "rmse": 0.501946035637072,
+        "pearson": 0.9172621699918906
+      }
+    ]
+  },
+  "secondary": {
+    "rmse": 0.592154216752279,
+    "pearson": 0.8788115149556336
+  },
+  "training": {
+    "rmse": 0.2623548041640738,
+    "pearson": 0.9783299018121575
+  },
+  "model": "microsoft/wavlm-large",
+  "revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+  "fingerprint": "9f60ff0636c28df9e80161f844408085424b406f3f7b7ffe6c6c80f2ed6e2b16",
+  "method": "WavLM layers11-12 fine-tuning",
+  "warmup_epochs": 20,
+  "seed": 42,
+  "limitation": "Reused development labels; secondary split is a stability check, not an untouched holdout."
+}

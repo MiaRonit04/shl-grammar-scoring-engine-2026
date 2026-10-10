@@ -1,0 +1,97 @@
+{
+  "selected": {
+    "name": "shl-acceptability-results_weight0.25",
+    "development": {
+      "rmse": 0.5039194367669826,
+      "pearson": 0.9190288212377794
+    },
+    "secondary": {
+      "rmse": 0.5089536715566835,
+      "pearson": 0.9166658678996157
+    },
+    "training": {
+      "rmse": 0.06881086911540413,
+      "pearson": 0.9989752525837252
+    }
+  },
+  "baseline": {
+    "development": {
+      "rmse": 0.5050635339778996,
+      "pearson": 0.9169768319303417
+    },
+    "secondary": {
+      "rmse": 0.5102476232027389,
+      "pearson": 0.9148308941636932
+    }
+  },
+  "reference_name": "reference_v3",
+  "passed_export_gate": false,
+  "development_comparison": [
+    {
+      "name": "shl-acceptability-results_weight0.25",
+      "development": {
+        "rmse": 0.5039194367669826,
+        "pearson": 0.9190288212377794
+      },
+      "secondary": {
+        "rmse": 0.5089536715566835,
+        "pearson": 0.9166658678996157
+      },
+      "training": {
+        "rmse": 0.06881086911540413,
+        "pearson": 0.9989752525837252
+      }
+    },
+    {
+      "name": "reference_v3",
+      "development": {
+        "rmse": 0.5050635339778996,
+        "pearson": 0.9169768319303417
+      }
+    },
+    {
+      "name": "shl-acceptability-results_weight0.5",
+      "development": {
+        "rmse": 0.5201904457485258,
+        "pearson": 0.9132540844896343
+      }
+    },
+    {
+      "name": "shl-acceptability-results_weight0.75",
+      "development": {
+        "rmse": 0.5523396388489026,
+        "pearson": 0.8993885032860824
+      }
+    },
+    {
+      "name": "shl-acceptability-results_weight1.0",
+      "development": {
+        "rmse": 0.5978107803800556,
+        "pearson": 0.87779285430874
+      }
+    }
+  ],
+  "components": {
+    "shl-acceptability-results": {
+      "selected": {
+        "model": "extended_acceptability_cat5",
+        "rmse": 0.5978107803800556,
+        "pearson": 0.87779285430874
+      },
+      "secondary": {
+        "rmse": 0.6004902838023073,
+        "pearson": 0.8759817179445588
+      },
+      "training": {
+        "rmse": 0.056340708848788515,
+        "pearson": 0.9991640679675468
+      },
+      "model": "textattack/roberta-base-CoLA",
+      "revision": "3ccf3a400f2fa75ff257eac171047603ffbe84f1",
+      "feature_name": "acceptability",
+      "fingerprint": "be33b1adf6b92f5c34dfa2ce3f635848b39ae7a308352e38b606f15b0a11c4db",
+      "limitation": "Development selection and secondary splits reuse labels; neither is an untouched holdout."
+    }
+  },
+  "limitation": "Development folds are reused for selection; second split is a stability check, not an untouched holdout."
+}

@@ -1,0 +1,49 @@
+{
+  "selected": {
+    "model": "attentive_epochs20_two_seeds",
+    "epochs": 20,
+    "rmse": 0.5562791452886956,
+    "pearson": 0.8934143061083558,
+    "folds": [
+      {
+        "rmse": 0.5581140554677975,
+        "pearson": 0.8940280173517167
+      },
+      {
+        "rmse": 0.5825388454152786,
+        "pearson": 0.8760049630741886
+      },
+      {
+        "rmse": 0.5411463867189532,
+        "pearson": 0.9128613713675274
+      },
+      {
+        "rmse": 0.5960961729700106,
+        "pearson": 0.8628172060203535
+      },
+      {
+        "rmse": 0.4978146210043338,
+        "pearson": 0.9188885496969984
+      }
+    ]
+  },
+  "secondary": {
+    "rmse": 0.5811744096534871,
+    "pearson": 0.8834519712465772
+  },
+  "training": {
+    "rmse": 0.32501826760552505,
+    "pearson": 0.9682689333365222
+  },
+  "model": "microsoft/wavlm-large",
+  "revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+  "fingerprint": "7de1d7951d7463c138136e5c7fe6bd842974c36bb7ae046deba1c2b4a0541e61",
+  "method": "frozen layer12 frames, supervised attentive mean/std pooling",
+  "device": "mps",
+  "normalization": "fit only on fold training rows",
+  "seeds": [
+    42,
+    2026
+  ],
+  "limitation": "Repeated development selection; secondary splits reuse labels and are not an untouched holdout."
+}

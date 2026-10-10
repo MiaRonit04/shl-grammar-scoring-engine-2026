@@ -1,0 +1,331 @@
+{
+  "selected": {
+    "name": "shl-finetuned-results_0.25+shl-acceptability-results_0.25+reference_0.5",
+    "development": {
+      "rmse": 0.503484091913176,
+      "pearson": 0.9176112965565442
+    },
+    "secondary": {
+      "rmse": 0.5140973344133629,
+      "pearson": 0.9132071081428242
+    },
+    "training": {
+      "rmse": 0.10545516035127132,
+      "pearson": 0.9971695390197916
+    }
+  },
+  "baseline": {
+    "development": {
+      "rmse": 0.5050635339778996,
+      "pearson": 0.9169768319303417
+    },
+    "secondary": {
+      "rmse": 0.5102476232027389,
+      "pearson": 0.9148308941636932
+    }
+  },
+  "reference_name": "reference_v3",
+  "passed_export_gate": false,
+  "development_comparison": [
+    {
+      "name": "shl-finetuned-results_0.25+shl-acceptability-results_0.25+reference_0.5",
+      "development": {
+        "rmse": 0.503484091913176,
+        "pearson": 0.9176112965565442
+      },
+      "secondary": {
+        "rmse": 0.5140973344133629,
+        "pearson": 0.9132071081428242
+      },
+      "training": {
+        "rmse": 0.10545516035127132,
+        "pearson": 0.9971695390197916
+      }
+    },
+    {
+      "name": "shl-attentive-results_0.25+shl-acceptability-results_0.25+reference_0.5",
+      "development": {
+        "rmse": 0.5037849853033421,
+        "pearson": 0.9177120367661044
+      }
+    },
+    {
+      "name": "shl-acceptability-results_weight0.25",
+      "development": {
+        "rmse": 0.5039194367669826,
+        "pearson": 0.9190288212377794
+      }
+    },
+    {
+      "name": "shl-finetuned-results_weight0.25",
+      "development": {
+        "rmse": 0.5040500718316044,
+        "pearson": 0.9161150359884381
+      }
+    },
+    {
+      "name": "shl-attentive-results_weight0.25",
+      "development": {
+        "rmse": 0.504629977870259,
+        "pearson": 0.916055536731388
+      }
+    },
+    {
+      "name": "reference_v3",
+      "development": {
+        "rmse": 0.5050635339778996,
+        "pearson": 0.9169768319303417
+      }
+    },
+    {
+      "name": "shl-attentive-results_0.5+shl-acceptability-results_0.25+reference_0.25",
+      "development": {
+        "rmse": 0.5128500907965616,
+        "pearson": 0.9126950876416984
+      }
+    },
+    {
+      "name": "shl-finetuned-results_0.25+shl-attentive-results_0.25+reference_0.5",
+      "development": {
+        "rmse": 0.5130749439566198,
+        "pearson": 0.9115333498557762
+      }
+    },
+    {
+      "name": "shl-attentive-results_weight0.5",
+      "development": {
+        "rmse": 0.5133858659174877,
+        "pearson": 0.9115338703820228
+      }
+    },
+    {
+      "name": "shl-finetuned-results_weight0.5",
+      "development": {
+        "rmse": 0.5147692955849567,
+        "pearson": 0.9107892462301022
+      }
+    },
+    {
+      "name": "shl-finetuned-results_0.5+shl-acceptability-results_0.25+reference_0.25",
+      "development": {
+        "rmse": 0.5147827833874248,
+        "pearson": 0.9116214186568004
+      }
+    },
+    {
+      "name": "shl-acceptability-results_weight0.5",
+      "development": {
+        "rmse": 0.5201904457485258,
+        "pearson": 0.9132540844896343
+      }
+    },
+    {
+      "name": "shl-finetuned-results_0.25+shl-acceptability-results_0.5+reference_0.25",
+      "development": {
+        "rmse": 0.5203303396929824,
+        "pearson": 0.9115388007861961
+      }
+    },
+    {
+      "name": "shl-attentive-results_0.25+shl-acceptability-results_0.5+reference_0.25",
+      "development": {
+        "rmse": 0.5203507316877993,
+        "pearson": 0.9117605527635688
+      }
+    },
+    {
+      "name": "shl-attentive-results_0.5+shl-acceptability-results_0.5+reference_0.0",
+      "development": {
+        "rmse": 0.5294176608646746,
+        "pearson": 0.9065452805202697
+      }
+    },
+    {
+      "name": "shl-finetuned-results_0.25+shl-attentive-results_0.5+reference_0.25",
+      "development": {
+        "rmse": 0.5308264432619657,
+        "pearson": 0.903792383387
+      }
+    },
+    {
+      "name": "shl-attentive-results_weight0.75",
+      "development": {
+        "rmse": 0.530876700967161,
+        "pearson": 0.9038293368623004
+      }
+    },
+    {
+      "name": "shl-finetuned-results_0.5+shl-acceptability-results_0.5+reference_0.0",
+      "development": {
+        "rmse": 0.5318203420012864,
+        "pearson": 0.9052377182697675
+      }
+    },
+    {
+      "name": "shl-finetuned-results_0.5+shl-attentive-results_0.25+reference_0.25",
+      "development": {
+        "rmse": 0.5327138376945217,
+        "pearson": 0.9030490395731976
+      }
+    },
+    {
+      "name": "shl-finetuned-results_weight0.75",
+      "development": {
+        "rmse": 0.5365184355127097,
+        "pearson": 0.9016160441301736
+      }
+    },
+    {
+      "name": "shl-acceptability-results_weight0.75",
+      "development": {
+        "rmse": 0.5523396388489026,
+        "pearson": 0.8993885032860824
+      }
+    },
+    {
+      "name": "shl-attentive-results_weight1.0",
+      "development": {
+        "rmse": 0.5562791452886956,
+        "pearson": 0.8934143061083558
+      }
+    },
+    {
+      "name": "shl-finetuned-results_0.5+shl-attentive-results_0.5+reference_0.0",
+      "development": {
+        "rmse": 0.5585087551801095,
+        "pearson": 0.892644020221023
+      }
+    },
+    {
+      "name": "shl-finetuned-results_weight1.0",
+      "development": {
+        "rmse": 0.5680319417227918,
+        "pearson": 0.889278581686082
+      }
+    },
+    {
+      "name": "shl-acceptability-results_weight1.0",
+      "development": {
+        "rmse": 0.5978107803800556,
+        "pearson": 0.87779285430874
+      }
+    }
+  ],
+  "components": {
+    "shl-finetuned-results": {
+      "selected": {
+        "model": "finetune_two_blocks_epoch4",
+        "epochs": 4,
+        "rmse": 0.5680319417227918,
+        "pearson": 0.889278581686082,
+        "folds": [
+          {
+            "rmse": 0.5795384363238693,
+            "pearson": 0.8860882078447805
+          },
+          {
+            "rmse": 0.5838345688595348,
+            "pearson": 0.8759645375895893
+          },
+          {
+            "rmse": 0.554710954079264,
+            "pearson": 0.9080373693726717
+          },
+          {
+            "rmse": 0.6135638573037471,
+            "pearson": 0.8551194482828051
+          },
+          {
+            "rmse": 0.501946035637072,
+            "pearson": 0.9172621699918906
+          }
+        ]
+      },
+      "secondary": {
+        "rmse": 0.592154216752279,
+        "pearson": 0.8788115149556336
+      },
+      "training": {
+        "rmse": 0.2623548041640738,
+        "pearson": 0.9783299018121575
+      },
+      "model": "microsoft/wavlm-large",
+      "revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+      "fingerprint": "9f60ff0636c28df9e80161f844408085424b406f3f7b7ffe6c6c80f2ed6e2b16",
+      "method": "WavLM layers11-12 fine-tuning",
+      "warmup_epochs": 20,
+      "seed": 42,
+      "limitation": "Reused development labels; secondary split is a stability check, not an untouched holdout."
+    },
+    "shl-attentive-results": {
+      "selected": {
+        "model": "attentive_epochs20_two_seeds",
+        "epochs": 20,
+        "rmse": 0.5562791452886956,
+        "pearson": 0.8934143061083558,
+        "folds": [
+          {
+            "rmse": 0.5581140554677975,
+            "pearson": 0.8940280173517167
+          },
+          {
+            "rmse": 0.5825388454152786,
+            "pearson": 0.8760049630741886
+          },
+          {
+            "rmse": 0.5411463867189532,
+            "pearson": 0.9128613713675274
+          },
+          {
+            "rmse": 0.5960961729700106,
+            "pearson": 0.8628172060203535
+          },
+          {
+            "rmse": 0.4978146210043338,
+            "pearson": 0.9188885496969984
+          }
+        ]
+      },
+      "secondary": {
+        "rmse": 0.5811744096534871,
+        "pearson": 0.8834519712465772
+      },
+      "training": {
+        "rmse": 0.32501826760552505,
+        "pearson": 0.9682689333365222
+      },
+      "model": "microsoft/wavlm-large",
+      "revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+      "fingerprint": "7de1d7951d7463c138136e5c7fe6bd842974c36bb7ae046deba1c2b4a0541e61",
+      "method": "frozen layer12 frames, supervised attentive mean/std pooling",
+      "device": "mps",
+      "normalization": "fit only on fold training rows",
+      "seeds": [
+        42,
+        2026
+      ],
+      "limitation": "Repeated development selection; secondary splits reuse labels and are not an untouched holdout."
+    },
+    "shl-acceptability-results": {
+      "selected": {
+        "model": "extended_acceptability_cat5",
+        "rmse": 0.5978107803800556,
+        "pearson": 0.87779285430874
+      },
+      "secondary": {
+        "rmse": 0.6004902838023073,
+        "pearson": 0.8759817179445588
+      },
+      "training": {
+        "rmse": 0.056340708848788515,
+        "pearson": 0.9991640679675468
+      },
+      "model": "textattack/roberta-base-CoLA",
+      "revision": "3ccf3a400f2fa75ff257eac171047603ffbe84f1",
+      "feature_name": "acceptability",
+      "fingerprint": "be33b1adf6b92f5c34dfa2ce3f635848b39ae7a308352e38b606f15b0a11c4db",
+      "limitation": "Development selection and secondary splits reuse labels; neither is an untouched holdout."
+    }
+  },
+  "limitation": "Development folds are reused for selection; second split is a stability check, not an untouched holdout."
+}
